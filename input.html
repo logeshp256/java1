@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="myh1">hi bro</h1>
+
+    <label for="">enter user</label>
+    <input type="text" id="name"> <br><br>
+    <button id="mysub">submit</button>
+
+<script>
+    let name1;
+    document.getElementById('mysub').onclick = function(){
+        name1 = document.getElementById("name").value;
+       document.getElementById("myh1").innerHTML = name1
+
+    }
+</script>
+</body>
+</html>
